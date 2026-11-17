@@ -4,15 +4,21 @@ HiBro Write is an independently installable HiBro editor. The unified Office app
 
 [Downloads and Korean installation guide](https://hibro-office-download.jsyoon6532.chatgpt.site/download/#individual)
 
-| System | Installer 0.8.59 |
+| System | Installer 0.8.61 |
 | --- | --- |
-| Mac · Apple Silicon | [Download](https://github.com/sungyoon-j/hibro-write-downloads/releases/download/v0.8.59/HiBro-Write-0.8.59-mac-arm64.dmg) |
-| Mac · Intel | [Download](https://github.com/sungyoon-j/hibro-write-downloads/releases/download/v0.8.59/HiBro-Write-0.8.59-mac-x64.dmg) |
-| Windows x64 · unsigned preview | [Download](https://github.com/sungyoon-j/hibro-write-downloads/releases/download/v0.8.59/HiBro-Write-0.8.59-win-x64.exe) |
+| Mac · Apple Silicon | [Download](https://github.com/sungyoon-j/hibro-write-downloads/releases/download/v0.8.61/HiBro-Write-0.8.61-mac-arm64.dmg) |
+| Mac · Intel | [Download](https://github.com/sungyoon-j/hibro-write-downloads/releases/download/v0.8.61/HiBro-Write-0.8.61-mac-x64.dmg) |
+| Windows x64 · unsigned preview | [Download](https://github.com/sungyoon-j/hibro-write-downloads/releases/download/v0.8.61/HiBro-Write-0.8.61-win-x64.exe) |
 
 Mac requires macOS 13 or later. Mac installers are signed and notarized. Basic editing and file saving work without an account. Each app has its own local workspace and automatic update channel. Open existing documents through File Open. The unified HiBro Office app can remain installed. New updates are downloaded automatically and applied after documents are saved and the app quits normally.
 
 Windows installers are unsigned previews. Hosted Windows tests cover installation, physical file editing/saving/reopening, and real public-feed updates. Verification on an ordinary physical Windows PC remains outstanding. Optional online vault login is not verified while the existing service is paused.
+
+## 0.8.61 변경 사항
+
+Word 첫 페이지 별도 머리글·바닥글이 있는 양식의 열기, 빈칸 입력과 저장을 보완했습니다. 문단 끝 글꼴과 빈 줄 높이, 제목 전체 수정 시 원래 글꼴·크기를 보존합니다. 문서 편집 호환성과 큰 스프레드시트 선택 응답을 보완했습니다. 구역별 머리글·바닥글은 원본 보존 대상으로 직접 편집에는 제한이 있습니다. 복잡한 문서는 사본에서 먼저 확인해 주세요.
+
+Mac Apple Silicon·Intel과 Windows x64의 실제 설치 파일에서 495개 포함 파일을 대조하고, 39개 내장 처리 도구 검사와 DOCX·XLSX의 3회 저장·재열기를 확인했습니다. 사용자 Mac에서도 신청서 빈칸 입력·저장·앱 종료 후 실제 파일 재열기를 확인했습니다. Windows 설치 파일은 서명 전 시험판이며 일반 직원 PC의 화면·입력 검증은 별도입니다.
 
 ## 0.8.59 변경 사항
 
@@ -21,4 +27,5 @@ Windows installers are unsigned previews. Hosted Windows tests cover installatio
 ## 0.8.58 변경 사항
 
 저장과 다른 이름으로 저장을 별도 아이콘으로 제공하고, 파일 메뉴·리본·단축키를 정리했습니다. 기존 파일 열기는 실제 저장 위치에 연결되며, 사본은 다른 이름으로 저장해 별도로 편집할 수 있습니다. Mac 앱은 서명·공증을 마쳤습니다. Windows 설치 파일은 서명 전 시험판이며 일반 PC 검증은 별도입니다.
+
 
